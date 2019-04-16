@@ -1,2 +1,1 @@
-# MVVM
-some knowledge about MVVM
+# MVVM项目原理描述
