@@ -1,3 +1,11 @@
 # MVVM项目原理描述
 ### [单向绑定预览地址](https://xiaoweimei.github.io/MVVM/MVVM_onewaybind.html)
+- 单向绑定：即从视图到模型，或从模型到视图，数据不能构成一个环路
 ### [双向绑定预览地址](https://xiaoweimei.github.io/MVVM/MVVM_twowaybind.html)
+- 双向绑定：即数据可以从视图出发，传送到模型，再经由模型再次传递到视图
+### 原理分类
+- `Object.defineProperty的使用`
+- 实现数据劫持
+- 观察者模式和发布订阅模式
+- 实现单向绑定和双向绑定
+### 下面对源码进行细致的分析与解释
